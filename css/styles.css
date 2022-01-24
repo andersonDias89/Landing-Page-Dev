@@ -1,0 +1,479 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /*background-color: #00bcd4; color secundary - blue
+    color: #302e5a;*/
+    
+}
+
+body{
+    width: 100%;
+    
+}
+
+.header-main{
+    width: 100%;
+    
+    display: flex;
+}
+
+.tittle-header {
+    width: 60%;
+    height: 100vh;
+    position: relative;
+    margin-left: 150px;
+    
+}
+
+.img-figura img{
+    width: 290px;
+    margin: 0 0 70px 50px;
+}
+
+.tittle-header h1{
+    width: 500px;
+    text-align: left;
+    margin-top: 40px;
+    font-size: 80px;
+    color: #302e5a;
+    font-weight: 500;
+   
+    padding-left: 20px;
+    
+
+}
+
+.front-end{
+    text-transform: uppercase;
+    font-size: 80px;
+    color: rgb(128, 54, 128);
+}
+
+
+
+.tittle-header p{
+    width: 500px;
+    margin-left: 20px;
+}
+
+
+
+.container-img-header{
+    width: 90%;
+    margin: auto;
+}
+
+.img-header{
+    width: 40%;
+    height: 90vh;
+    background: linear-gradient( to top, #302e5a, #46437a);
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-right: 80px;
+  
+}
+
+.img-header h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.img-header p{
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.img-header span{margin-left: 15px;}
+
+.btn-img-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.btn-img-header button{
+    width: 230px;
+    height: 50px;
+    border: none;
+    text-transform: uppercase;
+    background: rgb(235, 68, 101);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+
+}
+
+.btn-img-header button:hover{
+    background: rgb(156, 36, 60);
+
+}
+
+/*--FIM DA HEADER---*/
+
+main{
+    width: 100%;
+    
+  
+}
+
+
+/*--COMEÇO TEACHER---*/
+
+.teacher{
+    width: 100%;
+    height:900px;
+    margin: auto;
+    background-color: rgb(236, 235, 235);
+}
+
+.all-teacher{
+    width: 100%;
+    height:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  
+}
+
+.teacher-tittle{
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.linha-teacher{
+    width: 30%;
+    height: 3px;
+    background-color: rgba(145, 145, 145, 0.4);
+    border-radius: 10px;
+    margin: 30px 0 0 470px;
+    
+}
+
+.techaer-1, .techaer-2{
+    width: 190px;
+    height: 190px;
+   
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.techaer-1{
+    background-image: url(https://images.unsplash.com/photo-1546215364-12f3fff5d578?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-position: center;
+    background-size: cover;
+    border: solid 6px rgb(235, 68, 101);
+    
+}
+
+.container-teacher-1{
+    width: 600px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    border-right: solid 2px rgba(141, 139, 139, 0.5);
+    
+    
+
+}
+
+.info-teacher-1{
+    width: 400px;
+    margin-top: 60px;
+}
+
+.robson{
+    margin-bottom: 5px;
+}
+
+.prof{font-weight: 300;}
+
+.techaer-2{
+    background-image: url(https://images.unsplash.com/photo-1542740348-39501cd6e2b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    
+    background-position: center;
+    background-size: cover;
+    border: solid 6px rgb(235, 68, 101);
+    
+    
+    
+}
+
+.container-teacher-2{
+    width: 600px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    border-left: solid 2px rgba(141, 139, 139, 0.5);
+  
+
+}
+
+.info-teacher-2{
+    width: 400px;
+    margin-top: 60px;
+}
+
+.lara{
+    margin-bottom: 5px;
+}
+
+.linha{
+    width: 30%;
+    height: 3px;
+    background-color: rgba(145, 145, 145, 0.4);
+    margin: 10px;
+    border-radius: 10px;
+  
+    
+}
+
+
+/*--COMEÇO DA SECTION VANTAGENS---*/
+
+.cursos{
+    width: 100%;
+    height: 800px;
+    
+}
+
+.cursos-title{
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.linha-cursos{
+    width: 30%;
+    height: 3px;
+    background-color: rgba(145, 145, 145, 0.4);
+    border-radius: 10px;
+    margin: 30px 0 0 470px;
+    
+}
+
+.container-cursos{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.container-cursos hr{
+    margin-bottom: 5px;
+
+}
+
+.html-css, .javascript, .bootstrap, .react{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(236, 235, 235);
+    border-radius: 15px;
+}
+
+.content-html-css{
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/html-css.webp);
+    background-position: center;
+    background-size: cover;
+    border: solid 3px rgb(197, 197, 197);;
+    
+}
+
+.text-content-html-css, .text-content-javascript, .text-content-bootstrap, .text-content-react{
+    width: 300px;
+    height: 200px ;
+    padding: 15px;
+    
+}
+
+
+.content-javascript{
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/LOGO-javaScript.png);
+    background-position: center;
+    background-size: cover;
+    border: solid 3px rgb(197, 197, 197);;
+    
+}
+
+
+.content-bootstrap{
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/bootstrap-LOGO.png);
+    background-position: center;
+    background-size: cover;
+    border: solid 3px rgb(197, 197, 197);;
+    
+}
+
+.content-react{
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/logo-react.png);
+    background-position: center;
+    background-size: cover;
+    border: solid 3px rgb(197, 197, 197);;
+    
+}
+
+
+/*--COMEÇO DA SECTION ACTION---*/
+
+
+.action{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(236, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.action-img{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background: linear-gradient( to top, #302e5a, #46437a);
+    
+    border-radius: 15px;
+    display: flex;
+    
+}
+
+.action-img img{
+    width: 500px;
+    border: solid 2px rgb(196, 196, 196);
+    
+}
+
+.action-text{
+    width: 550px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-action-tex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-tittle{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-oferta{
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    background: rgb(235, 68, 101);
+    border: none;
+    color: white;
+}
+
+.btn-oferta:hover{
+    background: rgb(156, 36, 60);
+    cursor: pointer;
+
+}
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background: #302e5a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-footer{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contato, .endereco{
+    width: 300px;
+    height: 100px;
+    
+   
+}
+
+.contato{
+    border-right: 1px solid white;
+    color: white;
+    font-weight: 200;
+}
+
+
+.contato h4{
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.phone, .icon-phone{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.email, .icon-email{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.endereco{
+    margin-left: 30px;
+    color: white;
+    font-weight: 200;
+}
+
+.tittle-endereco{
+    font-weight: 400;
+}
+.copy{
+  width: 100%;
+}
+
+.copy h5{
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    font-size: 14px;
+}
+
+
