@@ -38,6 +38,6 @@ This was my first project as a programmer. I've been studying front end programm
 ![Preview Lading Page](/img/WEB-SITE-LANDING-PAGE-CURSO-DEV.png)
 
 <h2 align="center"> My GitHub <a href="https://github.com/andersonDias89">https://github.com/andersonDias89</a></h2>
-<a href="https://github.com/andersonDias89/andersonDias89"><div>https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white</div></a>
+https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 
 
