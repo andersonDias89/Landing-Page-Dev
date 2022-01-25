@@ -2,7 +2,7 @@
 <h5 align="center">⚙️ 💻Project under construction💻 ⚙️</h5>
 
 <div>
-  <a href="https://github.com/andersonDias89"></img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://github.com/andersonDias89" target="_blank"></img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 </div>
 
 
